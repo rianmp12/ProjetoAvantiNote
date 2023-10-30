@@ -3,6 +3,14 @@
  * https://jestjs.io/docs/configuration
  */
 
+// jest.config.js
+module.exports = {
+  testMatch: ["**/__tests__/**/*.spec.js"],
+  // Outras configurações do Jest
+};
+
+
+
 /** @type {import('jest').Config} */
 const config = {
   // All imported modules in your tests should be mocked automatically
@@ -10,7 +18,7 @@ const config = {
 
   // Stop running tests after `n` failures
   // bail: 0,
-
+  
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "C:\\Users\\emisa\\AppData\\Local\\Temp\\jest",
 
@@ -101,7 +109,7 @@ const config = {
   // notifyMode: "failure-change",
 
   // A preset that is used as a base for Jest's configuration
-  // preset: undefined,
+   //preset: 'ts-jest',
 
   // Run tests from one or more projects
   // projects: undefined,
