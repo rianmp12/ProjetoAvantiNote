@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1698697026672" clover="3.2.0">
-  <project timestamp="1698697026672" name="All files">
-    <metrics statements="276" coveredstatements="229" conditionals="22" coveredconditionals="15" methods="12" coveredmethods="7" elements="310" coveredelements="251" complexity="0" loc="276" ncloc="276" packages="7" files="11" classes="11"/>
+<coverage generated="1698776365192" clover="3.2.0">
+  <project timestamp="1698776365192" name="All files">
+    <metrics statements="277" coveredstatements="230" conditionals="22" coveredconditionals="15" methods="12" coveredmethods="7" elements="311" coveredelements="252" complexity="0" loc="277" ncloc="277" packages="7" files="11" classes="11"/>
     <package name="api">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="knexfile.js" path="C:\Users\Rian Manoel\Desktop\ProjetoAvantiNote\api\knexfile.js">
@@ -65,9 +65,9 @@
       </file>
     </package>
     <package name="api.src.controllers">
-      <metrics statements="165" coveredstatements="153" conditionals="20" coveredconditionals="13" methods="5" coveredmethods="5"/>
+      <metrics statements="166" coveredstatements="154" conditionals="20" coveredconditionals="13" methods="5" coveredmethods="5"/>
       <file name="SessionsController.js" path="C:\Users\Rian Manoel\Desktop\ProjetoAvantiNote\api\src\controllers\SessionsController.js">
-        <metrics statements="36" coveredstatements="34" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <metrics statements="37" coveredstatements="35" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -104,6 +104,7 @@
         <line num="34" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
       </file>
       <file name="TagsController.js" path="C:\Users\Rian Manoel\Desktop\ProjetoAvantiNote\api\src\controllers\TagsController.js">
         <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
@@ -111,14 +112,14 @@
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>

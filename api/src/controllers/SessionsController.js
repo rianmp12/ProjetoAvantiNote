@@ -28,7 +28,8 @@ class SessionsController {
       subject: String(user.id),
       expiresIn
     });
-
+    console.log("Token: ", token);
+    console.log( secret);
     response.status(201).json({ token, user });
   }
 }
