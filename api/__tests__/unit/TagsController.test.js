@@ -11,7 +11,7 @@ describe('TagsController', () => {
   });
 
   describe('index', () => {
-    it('should return a list of tags for a user', async () => {
+    it('deve retornar uma lista de tags para um usuário', async () => {
       const user_id = 1;
       const request = {
         user: { id: user_id },
@@ -40,7 +40,7 @@ describe('TagsController', () => {
   });
 
   describe('index2', () => {
-    it('should return a list of tags for a user', async () => {
+    it('deve retornar uma lista de tags', async () => {
       const user_id = 1;
       const request = {
         user: { id: user_id },
@@ -68,7 +68,7 @@ describe('TagsController', () => {
     });
   });
 
-  it('should return an empty list if the user has no tags', async () => {
+  it('deve retornar uma lista vazia se o usuário não tiver tags', async () => {
     const user_id = 1;
     const request = {
       user: { id: user_id },

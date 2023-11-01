@@ -17,7 +17,7 @@ describe('SessionsController', () => {
   });
 
   describe('create', () => {
-    it('should create a new session and return a token', async () => {
+    it('deve criar uma nova sessão e retornar um token', async () => {
       const request = {
         body: {
           email: 'test@example.com',
@@ -62,7 +62,7 @@ describe('SessionsController', () => {
       expect(response.json).toHaveBeenCalledWith({ token: jwtToken, user });
     });
 
-    it('should throw an error for incorrect email or password', async () => {
+    it('deve gerar um erro por e-mail ou senha incorretos', async () => {
       const request = {
         body: {
           email: 'test@example.com',

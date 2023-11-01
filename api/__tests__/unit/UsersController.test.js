@@ -14,7 +14,7 @@ describe('UsersController', () => {
   });
 
   describe('create', () => {
-    it('should create a new user', async () => {
+    it('deve criar um novo usuário', async () => {
       const request = {
         body: {
           name: 'Test User',
@@ -48,7 +48,7 @@ describe('UsersController', () => {
       expect(response.json).toHaveBeenCalled();
     });
 
-    it('should throw an error if email already exists', async () => {
+    it('deve gerar um erro se o e-mail já existir', async () => {
       const request = {
         body: {
           name: 'Test User',
@@ -76,7 +76,7 @@ describe('UsersController', () => {
   });
 
   describe('update', () => {
-    it('should update user information', async () => {
+    it('deve atualizar as informações do usuário', async () => {
       // Simule um usuário válido
       const user_id = 1;
 
@@ -106,7 +106,7 @@ describe('UsersController', () => {
       // Expect assertions aqui...
     });
 
-    it('should throw an error if the user does not exist', async () => {
+    it('deve gerar um erro se o usuário não existir', async () => {
       // Simule um usuário que não existe
       const user_id = 1;
 

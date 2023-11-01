@@ -6,7 +6,7 @@ jest.mock('../../src/database/sqlite');
 jest.mock('../../src/providers/DiskStorage');
 
 describe('UserAvatarController', () => {
-  it('should update the user avatar', async () => {
+  it('deve atualizar o avatar do usuário', async () => {
     // Mock request and response objects
     const request = {
       user: { id: 1 },
